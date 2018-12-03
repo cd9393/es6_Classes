@@ -1,7 +1,7 @@
 // const PubSub = require('../helpers/pub_sub.js');
 import PubSub from "../helpers/pub_sub.js";
 
-export default class InstrumentFamilyView{
+export default class InstrumentFamilyView{  // dont export like this as it will break react DevTools.
   constructor(container){
     this.container = container;
   }
